@@ -23,9 +23,19 @@ int main() {
 
     // Comparison Operators
     // ==, !=, >, >=,<=
-    int a = 30,b= 25;
+    int a = 30,b= 25,c=15;
     if(a>b){
-        printf("%d is grater then %d",a,b);
+        printf("%d is grater then %d\n",a,b);
+    };
+
+    //logical operators
+    // && || !
+    if(a>b && a>c){
+        printf("a is big number");
+    } else if(b>a && b>c){
+        printf("b is big number");
+    } else {
+        printf("c is big number");
     };
  
 }
